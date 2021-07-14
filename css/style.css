@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 /* ......................
-      base style
+      Common/Base style
 ............ ............*/
 
 body{
@@ -13,7 +13,7 @@ body{
     }
 
 /*.................
-    header style
+    Header Style
  ................. */
  
 header{
@@ -69,16 +69,16 @@ img{
 }
 
 /*...............
-   player style
+   Player Style
 ................. */
 
 .players-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 33px 33px 140px 33px;
+    margin: 30px 33px 140px 33px;
 }
 .players{
-    margin: 25px 18px;
+    margin: 22px 18px;
     border: 1px soild white;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px 15px;
@@ -87,7 +87,7 @@ img{
     color: gray;
 }
 /*.............................
-     player highlights style
+     Player Highlights Style
 ............................... */
 .highlights h1
 {
@@ -107,7 +107,7 @@ img{
 }
 
 /*...................
-    footer style
+    Footer Style
 ..................... */
 .ftr 
 {
@@ -145,5 +145,28 @@ img{
    font-size: 18px;
 }
 
+/*-------------------------
+     Media Queries
+---------------------------*/
+
+
+/* Mobile Deivces */
+
+
+@media only screen and (max-width:688px){
+.container{
+    width: 100%;
+}
+.col-6
+{
+    width: 50%;
+   position: inherit;
+}
+.players-list{
+
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
 
 
