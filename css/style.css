@@ -1,0 +1,75 @@
+/*------ font style -----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* ......................
+      base style
+............ ............*/
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+/*.................
+    header style
+ ................. */
+
+header{
+    background-color: royalblue;
+}
+.header-content{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.container
+{
+max-width: 1150px;
+width: 1100px;
+display: flex;
+margin: auto;
+}
+.col-6{
+    width: 50%;
+}
+img{
+    max-width: 100%;
+}
+.header-content h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+    padding-left: ;
+}
+.liveBtn{
+    padding:11px 25px;
+    margin: 5px 0px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 3px;
+    color: white;
+
+}
+
+/*...............
+   player style
+................. */
+
+.players-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0px;
+
+}
+.players{
+    margin: 25px 20px;
+    border: 1px soild white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px gray;
+    padding: 15px 15px;
+}
+.players p{
+    color: gray;
+}
