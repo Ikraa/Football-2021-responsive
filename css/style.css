@@ -106,5 +106,44 @@ img{
     padding-bottom: 12px;
 }
 
+/*...................
+    footer style
+..................... */
+.ftr 
+{
+    margin-top: 135px;
+    text-align: center;
+}
+.ftr img{
+    width: 480px;
+    height: 105px;
+}
+.icon
+{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: center;
+}
+.margin{
+    margin: 20px 10px 20px 10px;
+}
+.fa{
+    color:blue;
+}
+.fa-instagram-square
+{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+}
+.fa-youtube
+{
+    color: red;
+}
+.ftr p
+{
+   padding-bottom: 20px;
+   font-size: 18px;
+}
+
 
 
