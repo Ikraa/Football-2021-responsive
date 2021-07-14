@@ -17,11 +17,11 @@ body{
  ................. */
 
 header{
-    background-color: royalblue;
+    background-color: #151B8D;
 }
 .header-content{
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 88px;
 }
 .container
 {
@@ -41,16 +41,30 @@ img{
     font-weight: 700;
     color: white;
     padding-top: 20px;
-    padding-left: ;
+}
+.header-content h1:hover
+{
+    text-transform: uppercase;
 }
 .liveBtn{
-    padding:11px 25px;
-    margin: 5px 0px;
-    background-color: tomato;
-    border: 1px solid tomato;
+    padding: 10px 24px;
+    background-color:#E02C6D;
+    border: 1px solid #E02C6D;
     border-radius: 3px;
     color: white;
-
+    font-size: 17px;
+    font-weight: 500px;
+}
+.liveBtn:hover
+{
+    background-color: rgb(140, 196, 30);
+    border-color: yellowgreen;
+    font-size: 19px;
+}
+.col-6.transform:hover
+{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
 }
 
 /*...............
@@ -60,14 +74,13 @@ img{
 .players-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 50px 0px;
+    margin: 45px 0px;
 
 }
 .players{
-    margin: 25px 20px;
+    margin: 25px 18px;
     border: 1px soild white;
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px 4px gray;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px 15px;
 }
 .players p{
