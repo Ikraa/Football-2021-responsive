@@ -15,21 +15,22 @@ body{
 /*.................
     header style
  ................. */
-
+ 
 header{
     background-color: #151B8D;
 }
 .header-content{
-    padding-top: 80px;
+    padding-top: 90px;
     padding-bottom: 88px;
+    margin-bottom: 50px;
 }
 .container
-{
-max-width: 1150px;
-width: 1100px;
-display: flex;
-margin: auto;
-}
+ {
+ max-width: 1150px;
+ width: 1100px;
+ display: flex;
+ margin: auto;
+ }
 .col-6{
     width: 50%;
 }
@@ -74,8 +75,7 @@ img{
 .players-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 45px 0px;
-
+    margin: 33px 33px 140px 33px;
 }
 .players{
     margin: 25px 18px;
@@ -86,3 +86,25 @@ img{
 .players p{
     color: gray;
 }
+/*.............................
+     player highlights style
+............................... */
+.highlights h1
+{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    
+}
+.highlights
+{
+    margin: 0px 30px;
+}
+.highlights-pera
+{
+    color: gray;
+    padding-bottom: 12px;
+}
+
+
+
