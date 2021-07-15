@@ -68,12 +68,12 @@ img{
     border-color: #151B8D;
     font-size: 19px;
 }
-.col-6.transform:hover
+.col-6.transform-banner:hover
 {
     transform: matrix(-1, 0, 0, 1, 0, 0);
     
 }
-.padding-top{
+.padding-banner{
     padding-top: 17px;
 }
 .padding-top-cup
@@ -81,7 +81,7 @@ img{
     padding-top: 5em;
     border-bottom: 2px solid #EFF0F1;
 }
-.padding-pera
+.padding-pera-Cup
 {
     padding-top: 55px;
     margin:0px 10px 10px;
